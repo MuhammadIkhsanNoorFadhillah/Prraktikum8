@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+header, article, aside, nav, footer {
+    padding: 20px;
+}
+.content{
+    display: flex;
+    height: 69vh;
+}
+header{
+    background-color: bisque;
+}
+article{
+    background-color: firebrick;
+    width: 50%;
+}
+aside{
+    background-color: navy;
+    width: 25%;
+}
+nav{
+    background-color: aqua;
+    width: 25%;
+}
+footer{
+    background-color: blueviolet;
+}

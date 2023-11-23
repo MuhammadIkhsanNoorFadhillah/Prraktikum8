@@ -1,0 +1,39 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header {
+    background-color: green;
+    padding: 25px;
+}
+.content {
+    display: flex;
+    flex: 1;
+}
+.aside {
+    background-color: greenyellow;
+    flex: 1;
+    padding: 10px;
+}
+.article {
+    background-color: palegreen;
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 20px;
+}
+.image {
+    padding: 15px;
+    max-width: 25%;
+}
+.footer {
+    background-color: yellow;
+    padding: 25px;
+}
